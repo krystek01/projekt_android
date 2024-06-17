@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edittext_miasto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Miasto" />
+
+    <EditText
+        android:id="@+id/edittext_adres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adres" />
+
+    <EditText
+        android:id="@+id/edittext_powierzchnia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Powierzchnia (m²)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edittext_liczba_pokoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Liczba pokoi"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edittext_typ_nieruchomosci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Typ nieruchomości" />
+
+    <EditText
+        android:id="@+id/edittext_typ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Typ (na wynajem/kupno)" />
+
+    <EditText
+        android:id="@+id/edittext_cena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cena (PLN)"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/button_add_offer_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dodaj ofertę"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

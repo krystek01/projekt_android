@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageview_zdjecie"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder_image" />
+
+    <TextView
+        android:id="@+id/textview_miasto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Miasto"
+        android:textSize="18sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/textview_adres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adres"
+        android:textSize="18sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/textview_powierzchnia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powierzchnia"
+        android:textSize="18sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/textview_liczba_pokoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liczba Pokoi"
+        android:textSize="18sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/textview_typ_nieruchomosci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Typ Nieruchomosci"
+        android:textSize="18sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/textview_typ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Typ"
+        android:textSize="18sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/textview_cena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cena"
+        android:textSize="18sp"
+        android:paddingBottom="4dp" />
+    <TextView
+        android:id="@+id/textview_username2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nazwa Uzytkownika"
+        android:textSize="18sp"
+        android:paddingBottom="4dp" />
+
+</LinearLayout>

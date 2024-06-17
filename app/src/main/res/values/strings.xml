@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">mieszkania</string>
+    <string name="NoUser">Niezalogowany użytkownik</string>
+    <string name="zaloguj">Zaloguj</string>
+    <string name="maps">Mapy</string>
+    <string name="gallery">Galeria</string>
+    <string name="camera">Aparat</string>
+    <string name="login">Zaloguj</string>
+        <string name="login_activity">MyApp</string>
+        <string name="loginF">Logowanie</string>
+        <string name="password">Hasło</string>
+        <string name="register">Zarejestruj</string>
+
+</resources>
